@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inner{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner div{
+    
+    border-radius: 50%;
+}
+
+.neptunecir{
+    height: 630px;
+    width: 630px;
+}
+
+.uranuscir{
+    height: 570px;
+    width: 570px;
+}
+
+.saturncir{
+    height: 500px;
+    width: 500px;
+}
+
+.jupitercir{
+    height: 430px;
+    height: 430px;
+}
+
+.marscir{
+    height: 360px;
+    width: 360px;
+}
+
+.earthcir{
+    height: 290px;
+    width: 290px;
+}
+
+.venuscir{
+    height: 220px;
+    width: 220px;
+}
+
+.mercurycir{
+    height: 150px;
+    width: 150px;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: rotation 15s linear infinite;
+}
+
+.sun img,.sun{
+    height: 80px;
+    width: 80px;
+}
+
+.mercury img,.mercury{
+    height: 30px;
+    width: 30px;
+}
+
+.venus img,.venus{
+    animation-delay: 0.1s;
+    height: 30px;
+    width: 30px;
+}
+
+.earth img,.earth{
+    animation-delay: 0.3s;
+    height: 30px;
+    width: 30px;
+}
+
+.mars img,.mars{
+    animation-delay: 0.4s;
+    height: 30px;
+    width: 30px;
+}
+
+.jupiter img,.jupiter{
+    animation-delay: 0.5s;
+    height: 30px;
+    width: 30px;
+}
+
+.saturn img,.saturn{
+    animation-delay: 0.6s;
+    height: 30px;
+    width: 30px;
+}
+
+.uranus img,.uranus{
+    animation-delay: 0.7s;
+    height: 30px;
+    width: 30px;
+}
+
+.neptune img,.neptune{
+    animation-delay: 0.8s;
+    height: 30px;
+    width: 30px;
+}
+
+.dummy{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
